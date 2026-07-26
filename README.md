@@ -16,7 +16,7 @@ A responsive one-page agency website built using HTML, CSS, and JavaScript.
 - JavaScript
 
 ## Live Demo
-https://north-peak-digital-omega-orcin.vercel.app/
+https://north-peak-digital-4xvu4jewi-northpeak-digital.vercel.app/
 
 ## GitHub Repository
-https://north-peak-digital-omega-orcin.vercel.app/
+https://github.com/MansiRaj1395/NorthPeak-Digital
