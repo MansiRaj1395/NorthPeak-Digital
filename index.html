@@ -4,199 +4,76 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NorthPeak Digital</title>
-<style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Arial,sans-serif;
-}
-body{
-background:#f5f7fb;
-color:#222;
-}
-header{
-background:#0b3d91;
-color:white;
-padding:80px 20px;
-text-align:center;
-}
-header h1{
-font-size:50px;
-}
-header p{
-margin:20px 0;
-font-size:18px;
-}
-.btn{
-display:inline-block;
-padding:12px 25px;
-background:#ff9800;
-color:white;
-text-decoration:none;
-border-radius:5px;
-}
-section{
-padding:60px 10%;
-}
-h2{
-text-align:center;
-margin-bottom:40px;
-}
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-gap:20px;
-}
-.card{
-background:white;
-padding:20px;
-border-radius:10px;
-box-shadow:0 4px 10px rgba(0,0,0,.1);
-text-align:center;
-}
-.price{
-font-size:30px;
-color:#0b3d91;
-margin:15px 0;
-}
-form{
-max-width:600px;
-margin:auto;
-display:flex;
-flex-direction:column;
-gap:15px;
-}
-input,textarea{
-padding:12px;
-border:1px solid #ccc;
-border-radius:5px;
-}
-button{
-padding:12px;
-background:#0b3d91;
-color:white;
-border:none;
-cursor:pointer;
-}
-footer{
-background:#111;
-color:white;
-text-align:center;
-padding:20px;
-margin-top:50px;
-}
-@media(max-width:768px){
-header h1{
-font-size:36px;
-}
-}
-</style>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-<h1>NorthPeak Digital</h1>
-<p>We Build Modern Websites That Grow Your Business.</p>
-<a href="#contact" class="btn">Get Started</a>
+    <header>
+    <nav>
+        <div class="logo">NorthPeak Digital</div>
+
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <a href="#contact" class="btn">Get Started</a>
+    </nav>
 </header>
-<section>
-<h2>Our Services</h2>
-<div class="grid">
-<div class="card">
-<h3>Web Development</h3>
-<p>Responsive websites for businesses.</p>
-</div>
-<div class="card">
-<h3>UI/UX Design</h3>
-<p>Modern and attractive designs.</p>
-</div>
-<div class="card">
-<h3>SEO</h3>
-<p>Improve your Google ranking.</p>
-</div>
-<div class="card">
-<h3>Branding</h3>
-<p>Create a strong digital identity.</p>
-</div>
-<div class="card">
-<h3>Marketing</h3>
-<p>Grow your customers online.</p>
-</div>
-<div class="card">
-<h3>Support</h3>
-<p>24×7 technical assistance.</p>
-</div>
-</div>
+<section class="hero">
+    <div class="hero-content">
+        <h1>Grow Your Business with NorthPeak Digital</h1>
+
+        <p>
+            We create modern websites, powerful branding,
+            and digital marketing solutions that help your
+            business reach more customers.
+        </p>
+
+        <a href="#contact" class="hero-btn">Start Your Project</a>
+    </div>
 </section>
-<section>
-<h2>Client Testimonials</h2>
-<div class="grid">
-<div class="card">
-⭐⭐⭐⭐⭐
-<p>"Amazing service and fast delivery."</p>
-<b>- Rahul</b>
-</div>
-<div class="card">
-⭐⭐⭐⭐⭐
-<p>"Highly professional team."</p>
-<b>- Priya</b>
-</div>
-<div class="card">
-⭐⭐⭐⭐⭐
-<p>"Best agency for startups."</p>
-<b>- Aman</b>
-</div>
-</div>
+<section id="services" class="services">
+
+    <h2>Our Services</h2>
+
+    <div class="service-container">
+
+        <div class="card">
+            <h3>🌐 Web Development</h3>
+            <p>Responsive and modern websites.</p>
+        </div>
+
+        <div class="card">
+            <h3>🎨 UI/UX Design</h3>
+            <p>Beautiful and user-friendly designs.</p>
+        </div>
+
+        <div class="card">
+            <h3>📈 SEO</h3>
+            <p>Improve your search engine ranking.</p>
+        </div>
+
+        <div class="card">
+            <h3>📱 App Development</h3>
+            <p>Android and iOS applications.</p>
+        </div>
+
+        <div class="card">
+            <h3>📢 Digital Marketing</h3>
+            <p>Grow your business online.</p>
+        </div>
+
+        <div class="card">
+            <h3>🛠 Maintenance</h3>
+            <p>24×7 website support and updates.</p>
+        </div>
+
+    </div>
+
 </section>
-<section>
-<h2>Pricing</h2>
-<div class="grid">
-<div class="card">
-<h3>Starter</h3>
-<div class="price">$99</div>
-<p>Landing Page</p>
-<p>Basic SEO</p>
-</div>
-<div class="card">
-<h3>Business</h3>
-<div class="price">$299</div>
-<p>5 Pages</p>
-<p>SEO + Hosting</p>
-</div>
-<div class="card">
-<h3>Enterprise</h3>
-<div class="price">$599</div>
-<p>Unlimited Pages</p>
-<p>Premium Support</p>
-</div>
-</div>
-</section>
-<section id="contact">
-<h2>Contact Us</h2>
-<form onsubmit="return validateForm()">
-<input type="text" id="name" placeholder="Your Name">
-<input type="email" id="email" placeholder="Email">
-<textarea id="message" rows="5" placeholder="Message"></textarea>
-<button>Send Message</button>
-</form>
-</section>
-<footer>
-<p>Built for Digital Heroes Training Task</p>
-<p>© 2026 NorthPeak Digital</p>
-</footer>
-//using chatgpt in scripting the webpage
-<script>
-function validateForm(){
-let name=document.getElementById("name").value;
-let email=document.getElementById("email").value;
-let message=document.getElementById("message").value;
-if(name==""||email==""||message==""){
-alert("Please fill all fields.");
-return false;
-}
-alert("Message Sent Successfully!");
-return true;
-}
-</script>
+    <script src="Script.js"></script>
 </body>
 </html>
